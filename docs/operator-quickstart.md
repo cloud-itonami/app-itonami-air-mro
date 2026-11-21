@@ -48,7 +48,7 @@ npx --yes kbb --backend sci scripts/verify-docs-claims.cljk .
 ```
 SCANNED	25
 PASS	tracked-files	expected=25	actual=25
-PASS	inherited-bytes	expected=4370	actual=4370
+PASS	inherited-bytes	expected=4368	actual=4368
 PASS	preserved-files-unchanged	expected=[]	actual=[]
 PASS	removed-by-migration-absent	expected=[]	actual=[]
 PASS	svelte-artifacts	expected=0	actual=0
@@ -379,8 +379,8 @@ adapter-cloudflare 由来で、この `:esm` bundle には要らない。**撤�
 cd "$REPO" && npx wrangler deploy
 ```
 
-**ただし route が指すホストは解決しない**（`air-mro.etzhayyim.com` /
-`a1rmr001.etzhayyim.com` とも NXDOMAIN）。deploy が成功しても誰も到達できない。
+**ただし route が指すホストは応答しない**（`air-mro.itonami.app` /
+`a1rmr001.itonami.app` とも名前は引けるが 522 を返す。2026-11-21 実測）。deploy が成功しても誰も到達できない。
 `/xrpc/` の中継先 `mcp.etzhayyim.com` も同様なので、到達できたとしても中継は
 **502 を返す**（成功と同じ形で隠さない）。
 

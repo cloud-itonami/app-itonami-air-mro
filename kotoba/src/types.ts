@@ -56,7 +56,7 @@ export const COMPONENT_TRACE_INNER_TYPE = "com.etzhayyim.apps.airMro.componentTr
 export const SPARE_PART_ORDER_INNER_TYPE = "com.etzhayyim.apps.airMro.sparePartOrder";
 export const RELIABILITY_REPORT_INNER_TYPE = "com.etzhayyim.apps.airMro.reliabilityReport";
 
-export const AIR_MRO_DID_PREFIX = "did:web:air-mro.etzhayyim.com:" as const;
+export const AIR_MRO_DID_PREFIX = "did:web:air-mro.itonami.app:" as const;
 
 // ─── Component catalog (PLAINTEXT, reference / FK target) ────────────
 

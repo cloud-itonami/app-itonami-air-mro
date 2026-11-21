@@ -1,6 +1,6 @@
 {
   "@context": "https://etzhayyim.com/ns/kotodama/v1",
-  "@id": "did:web:air-mro.etzhayyim.com",
+  "@id": "did:web:air-mro.itonami.app",
   "name": "air-mro",
   "nanoid": "a1rmr001",
   "project": "air-mro",
