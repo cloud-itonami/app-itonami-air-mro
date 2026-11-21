@@ -20,7 +20,7 @@ import {
   coverage,
 } from "../src/index.js";
 
-const OWNER = "did:web:air-mro.etzhayyim.com";
+const OWNER = "did:web:air-mro.itonami.app";
 
 describe("air-mro kotoba (maximal migration: plaintext ops + E2E confidential)", () => {
   let e: any;

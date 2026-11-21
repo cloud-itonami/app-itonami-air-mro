@@ -53,7 +53,7 @@
    (let [init (cond-> #js {:method method}
                 body (doto (aset "body" body)
                        (aset "headers" #js {"content-type" "application/json"})))
-         req (js/Request. (str "https://air-mro.etzhayyim.com" path) init)]
+         req (js/Request. (str "https://air-mro.itonami.app" path) init)]
      (-> (js/Promise.resolve ((.-fetch h) req env #js {}))
          (.then (fn [res] (-> (.text res)
                               (.then (fn [b] {:status (.-status res)

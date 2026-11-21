@@ -20,9 +20,12 @@
 
 (def root (or (first (remove #(str/starts-with? % "--") *command-line-args*)) "."))
 
+;; JUN-1410 (2026-11-21): the did:web host and the wrangler routes moved to itonami.app.
+;; kotodama.jsonld diverged from upstream ON PURPOSE; the hashes and byte totals pinned below are the
+;; new content.
 (def claims
   {:tracked-files 28
-   :inherited-bytes 4370          ; the 5 inherited files still carried byte-identical
+   :inherited-bytes 4368          ; the 5 inherited files still carried byte-identical
    :svelte-artifacts 0            ; no .svelte / svelte.config / svelte/ file survives
    :sveltekit-compat-flags 0      ; nodejs_compat / nodejs_als were adapter-cloudflare's
    :appview-ts-files 0            ; the appview's TypeScript is gone
@@ -43,7 +46,7 @@
   {"MIGRATION-TODO.md" "f9c3820c888e074f99ffa01ca609d11f5ac66400e4732973e268bad3bf8d682c"
    "NOTICE" "9d3bd5678f857c647a465987cd8538580215416648991fd9de47e6dc648544f0"
    "README.edn" "2bead9787ebbd2ad3e58099515a4666c4c7b704bdcae6a929367d826c636a035"
-   "kotodama.jsonld" "a64d52299d4d01950f130a375bf5eba1879e77b1f9fb910f3942f09c4a603207"
+   "kotodama.jsonld" "fe32f17252327e1e978df79f76d273223ce165a849b57bd654d2406743e10846"
    "migration.edn" "f6fd1ea2a02d0541ae989c1ea53b3e2b6c48956173d267ae68bb8b20c76f5c6e"})
 
 ;; What the migration REMOVED, by name. A byte total cannot say "the TypeScript is

@@ -31,12 +31,12 @@
   ],
   "routes": [
     {
-      "pattern": "a1rmr001.etzhayyim.com/*",
-      "zone_name": "etzhayyim.com"
+      "pattern": "a1rmr001.itonami.app/*",
+      "zone_name": "itonami.app"
     },
     {
-      "pattern": "air-mro.etzhayyim.com/*",
-      "zone_name": "etzhayyim.com"
+      "pattern": "air-mro.itonami.app/*",
+      "zone_name": "itonami.app"
     }
   ]
   // The "assets" block was removed with the Svelte tree: it bound ASSETS to
