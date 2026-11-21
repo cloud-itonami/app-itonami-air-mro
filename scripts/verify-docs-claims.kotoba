@@ -24,7 +24,7 @@
 ;; kotodama.jsonld diverged from upstream ON PURPOSE; the hashes and byte totals pinned below are the
 ;; new content.
 (def claims
-  {:tracked-files 28
+  {:tracked-files 29
    :inherited-bytes 4368          ; the 5 inherited files still carried byte-identical
    :svelte-artifacts 0            ; no .svelte / svelte.config / svelte/ file survives
    :sveltekit-compat-flags 0      ; nodejs_compat / nodejs_als were adapter-cloudflare's

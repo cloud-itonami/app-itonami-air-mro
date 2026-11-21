@@ -115,7 +115,7 @@ var のキーが 1 つでも含まれていれば、書かずに exit 1 で止�
 | actor 記述子 | `kotodama.jsonld` |
 | 検証 | `scripts/{smoke-worker.cljs, verify-docs-claims.cljs}` |
 | 静的版のビルド | `scripts/render-static.kotoba` |
-| 由来・権利・識別 | `NOTICE` / `README.edn` / `migration.edn` / `MIGRATION-TODO.md` |
+| 由来・権利・識別 | `NOTICE` / `README.edn` / `migration.edn` / `MIGRATION-TODO.md` / `blueprint.edn` |
 | 文書 | `README.md` / `docs/operator-quickstart.md` / `docs/adr/0001-*.edn` |
 | **触っていない domain library** | `kotoba/`（TypeScript 5 本、下記） |
 
